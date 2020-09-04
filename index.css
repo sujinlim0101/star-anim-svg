@@ -1,10 +1,3 @@
-/* #star1,
-#star2,
-#star3 {
-  animation: star1-anim 3s infinite ease;
-
-  opacity: 1;
-} */
 * {
   padding: 0;
   margin: 0;
@@ -21,67 +14,55 @@
   width: 100vw;
   height: 100vh;
 }
-#stargroup1 {
-  animation: star-anim1 8s infinite ease-in-out;
-}
-
-#stargroup2 {
-  animation: star-anim2 8s infinite ease;
-}
-#stargroup3 {
-  animation: star-anim3 8s infinite ease;
-}
-#stargroup4 {
-  animation: star-anim1 8s infinite ease-in-out;
-  animation-delay: 1s;
-}
-#stargroup5 {
-  animation: star-anim2 8s infinite ease;
-  animation-delay: 1.2s;
-}
-
-#stargroup6 {
-  animation: star-anim1 8s infinite ease-in-out;
-  animation-delay: 1.2s;
-}
-
-#stargroup7 {
-  animation: seperate-star 8s infinite ease;
-  animation-delay: 0.5s;
-}
-#stargroup9 {
-  animation: star-anim3 8s infinite ease;
-  animation-delay: 0.5s;
-}
-#stargroup10 {
-  animation: star-anim1 8s infinite ease-in-out;
-  animation-delay: 1.9s;
-}
-#stargroup11 {
-  animation: seperate-star 8s infinite ease;
-  animation-delay: 1.2s;
-}
-#universe {
-  animation: stars 8s infinite ease;
-}
-#star1 {
-  animation: seperate-star 3s infinite ease;
-}
-#star3 {
-  animation: seperate-star 3s infinite ease;
-  animation-delay: 0.5s;
-}
-#star2 {
-  animation: seperate-star 3s infinite ease;
-  animation-delay: 0.7s;
-}
+#star1,
+#star2,
+#str3,
 #star4 {
-  animation: seperate-star 3s infinite ease;
-  animation-delay: 0.9s;
+  animation: star-anim1 8s infinite ease;
 }
+#star6,
 #star5 {
+  animation: star-anim1 8s infinite ease;
+  animation-delay: 0.3s;
+}
+#star7 {
   animation: seperate-star 3s infinite ease;
-  animation-delay: 1.2s;
+}
+
+#star9 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 0.5s;
+}
+
+#star10 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 0.3s;
+}
+#start11,
+#star21,
+#star17,
+#star19 {
+  animation: star-anim2 8s infinite ease;
+}
+#start12,
+#star22,
+#star18,
+#star20 {
+  animation: star-anim2 8s infinite ease;
+  animation-delay: 0.3s;
+}
+#start15,
+#star25,
+#star23,
+#star21 {
+  animation: star-anim2 5s infinite ease;
+  animation-delay: 0.5s;
+}
+#star14,
+#star16,
+#star26 {
+  animation: seperate-star 5s infinite ease;
+  animation-delay: 0.3s;
 }
 #head {
   animation: head 6s infinite ease;
