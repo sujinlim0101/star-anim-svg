@@ -5,6 +5,22 @@
 
   opacity: 1;
 } */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #f2f2f2;
+}
+.svg-container {
+  padding-top: 20px;
+  text-align: center;
+}
+.svg-container svg {
+  width: 100vw;
+  height: 100vh;
+}
 #stargroup1 {
   animation: star-anim1 8s infinite ease-in-out;
 }
@@ -68,14 +84,26 @@
   animation-delay: 1.2s;
 }
 #head {
-  animation: head 5s infinite ease;
+  animation: head 6s infinite ease;
   transform-origin: center;
   transform-box: fill-box;
 }
 #arm {
-  animation: arm 5s infinite ease;
+  animation: arm 6s infinite ease;
   transform-origin: top;
   transform-box: fill-box;
+}
+.description {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+}
+@media (max-width: 400px) {
+  .description {
+    font-size: 1.2rem;
+  }
 }
 
 @keyframes seperate-star {
@@ -144,9 +172,6 @@
 
   50% {
     transform: rotateZ(-30deg);
-  }
-  80% {
-    transform: rotateZ(5deg);
   }
 }
 @keyframes arm {
