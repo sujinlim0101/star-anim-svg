@@ -17,7 +17,9 @@
 #star1,
 #star2,
 #str3,
-#star4 {
+#star4,
+#Vector_27,
+#Vector_19 {
   animation: star-anim1 8s infinite ease;
 }
 #star6,
@@ -29,25 +31,35 @@
   animation: seperate-star 3s infinite ease;
 }
 
-#star9 {
+#star9,
+#Vector_23,
+#Vector_32 {
   animation: seperate-star 3s infinite ease;
   animation-delay: 0.5s;
 }
 
-#star10 {
+#star10,
+#Vector_24,
+#Vector_33 {
   animation: seperate-star 3s infinite ease;
   animation-delay: 0.3s;
 }
 #start11,
 #star21,
 #star17,
-#star19 {
+#star19,
+#Vector_22,
+#Vector_31 {
   animation: star-anim2 8s infinite ease;
 }
 #start12,
 #star22,
 #star18,
-#star20 {
+#star20,
+#Vector_21,
+#Vector_30,
+#Vector_15,
+#Vector_2 {
   animation: star-anim2 8s infinite ease;
   animation-delay: 0.3s;
 }
