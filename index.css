@@ -1,8 +1,160 @@
+/* #star1,
+#star2,
+#star3 {
+  animation: star1-anim 3s infinite ease;
+
+  opacity: 1;
+} */
 #stargroup1 {
+  animation: star-anim1 8s infinite ease-in-out;
 }
+
 #stargroup2 {
+  animation: star-anim2 8s infinite ease;
 }
-@keyframes star1 {
+#stargroup3 {
+  animation: star-anim3 8s infinite ease;
 }
-@keyframes star2 {
+#stargroup4 {
+  animation: star-anim1 8s infinite ease-in-out;
+  animation-delay: 1s;
+}
+#stargroup5 {
+  animation: star-anim2 8s infinite ease;
+  animation-delay: 1.2s;
+}
+
+#stargroup6 {
+  animation: star-anim1 8s infinite ease-in-out;
+  animation-delay: 1.2s;
+}
+
+#stargroup7 {
+  animation: seperate-star 8s infinite ease;
+  animation-delay: 0.5s;
+}
+#stargroup9 {
+  animation: star-anim3 8s infinite ease;
+  animation-delay: 0.5s;
+}
+#stargroup10 {
+  animation: star-anim1 8s infinite ease-in-out;
+  animation-delay: 1.9s;
+}
+#stargroup11 {
+  animation: seperate-star 8s infinite ease;
+  animation-delay: 1.2s;
+}
+#universe {
+  animation: stars 8s infinite ease;
+}
+#star1 {
+  animation: seperate-star 3s infinite ease;
+}
+#star3 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 0.5s;
+}
+#star2 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 0.7s;
+}
+#star4 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 0.9s;
+}
+#star5 {
+  animation: seperate-star 3s infinite ease;
+  animation-delay: 1.2s;
+}
+#head {
+  animation: head 5s infinite ease;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#arm {
+  animation: arm 5s infinite ease;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes seperate-star {
+  0%,
+  30%,
+  50%,
+  70%,
+  90% {
+    opacity: 0.4;
+  }
+  20%,
+  40%,
+  80% {
+    opacity: 1;
+  }
+}
+@keyframes star-anim1 {
+  0%,
+  40%,
+  60% {
+    opacity: 0.5;
+  }
+  10%,
+  50%,
+  90% {
+    opacity: 1;
+  }
+}
+@keyframes star-anim2 {
+  0%,
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 1;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes star-anim3 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes stars {
+  from {
+    tansform: scale(0.8);
+  }
+  to {
+    tansform: scale(1);
+  }
+}
+@keyframes head {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateZ(-30deg);
+  }
+  80% {
+    transform: rotateZ(5deg);
+  }
+}
+@keyframes arm {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateZ(8deg);
+  }
 }
