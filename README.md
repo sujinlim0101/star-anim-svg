@@ -1,4 +1,3 @@
-# star-anim-svg
-interactive web을 위한 svg 실험
+## svg를 이용해서 만드는 간단한 애니메이션
 <br>
-url: https://master.d3vza9ssqax4ts.amplifyapp.com/
+사이트: https://master.d3vza9ssqax4ts.amplifyapp.com/
